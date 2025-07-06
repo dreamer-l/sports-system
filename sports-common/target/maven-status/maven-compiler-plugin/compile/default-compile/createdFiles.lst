@@ -1,0 +1,5 @@
+com\example\sportsystem\common\model\MatchInfo.class
+com\example\sportsystem\common\model\MatchScoreMessage.class
+com\example\sportsystem\common\entity\MatchOddsEntity.class
+com\example\sportsystem\common\entity\MatchScoreEntity.class
+com\example\sportsystem\common\model\OddsUpdateMessage.class

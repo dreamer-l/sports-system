@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="sports-push-service" />
+        <module name="sports-statistic-service" />
+        <module name="sports-config-server" />
+        <module name="sports-common" />
+        <module name="sports-data-crawler" />
+        <module name="sports-storage-service" />
+        <module name="sports-registry" />
+        <module name="sports-api-gateway" />
+      </profile>
+    </annotationProcessing>
+  </component>
+</project>

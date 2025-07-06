@@ -1,0 +1,5 @@
+com\example\sportsystem\datacrawler\config\QuartzSchedulerConfig.class
+com\example\sportsystem\datacrawler\SportsDataCrawlerApplication.class
+com\example\sportsystem\datacrawler\job\FutureMatchesJob.class
+com\example\sportsystem\datacrawler\config\QuartzConfig.class
+com\example\sportsystem\datacrawler\service\DataCrawlerService.class

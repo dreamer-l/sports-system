@@ -1,0 +1,9 @@
+spring.application.name=sports-statistic-service
+server.port=8085
+
+# Nacos 服务发现配置
+cloud.nacos.discovery.server-addr=localhost:8848
+
+# RocketMQ 配置
+rocketmq.consumer.group=my-consumer-group
+rocketmq.name-server=localhost:9876

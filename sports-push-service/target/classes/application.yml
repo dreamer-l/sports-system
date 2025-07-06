@@ -1,0 +1,15 @@
+spring.application.name=sports-push-service
+server.port=8083
+server:
+  compression:
+    enabled: true
+    min-response-size: 1024
+    mime-types: text/plain,text/html,text/xml,application/json,application/javascript,application/x-javascript,application/css,application/xhtml+xml,application/rss+xml,application/atom+xml,application/x-www-form-urlencoded
+    excluded-user-agents: gozilla,slurp,spider,webkit
+
+# Nacos 服务发现配置
+cloud.nacos.discovery.server-addr=localhost:8848
+
+# Redis Stream 配置
+spring.redis.host=localhost
+spring.redis.port=6379

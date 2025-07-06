@@ -1,0 +1,13 @@
+spring.application.name=sports-data-crawler
+server.port=8082
+
+# Nacos 服务发现配置
+cloud.nacos.discovery.server-addr=localhost:8848
+
+# Redis Stream 配置
+spring.redis.host=localhost
+spring.redis.port=6379
+
+# RocketMQ 配置
+rocketmq.producer.group=my-group
+rocketmq.name-server=localhost:9876
